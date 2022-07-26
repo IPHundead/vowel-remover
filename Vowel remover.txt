@@ -1,0 +1,31 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main(){
+ string texth;
+ int co = 0;
+ 
+ cin >> texth;
+
+ for (int i = 0 ; i < texth.size() ; i++){
+
+    if (texth[i] != 'a' && texth[i] != 'A'){
+        if (texth[i] != 'e' && texth[i] != 'E'){
+            if (texth[i] != 'i' && texth[i] != 'I'){
+                if (texth[i] != 'o' && texth[i] != 'O'){
+                    if (texth[i] != 'u' && texth[i] != 'U'){
+                        if (texth[i] != 'y' && texth[i] != 'Y'){
+                            if (texth[i] != 'w' && texth[i] != 'W'){
+                                cout << texth[i];
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+ }
+
+}
